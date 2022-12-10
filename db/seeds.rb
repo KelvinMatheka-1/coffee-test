@@ -10,7 +10,7 @@ coffees = [
       coffee_image:"https://enjoyjava.com/wp-content/uploads/2018/01/How-to-make-strong-coffee.jpg",coffee_name:"ESPRESSO",price: 379, description: " made with a wide variety of coffee beans and roast degrees", category: "cream", customer_id: 1
   },
   {
-      coffee_image:"https://www.incimages.com/uploaded_files/image/1920x1080/getty_500740897_200013331653767347294_333325.jpg",coffee_name:"CAPPUCCINO",price: 400, description: "A cappuccino is an espresso-based coffee drink that originated in Austria and was later popularized in Italy and is prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.", category: "chocolate", customer_id: 2
+      coffee_image:"https://www.incimages.com/uploaded_files/image/1920x1080/getty_500740897_200013331653767347294_333325.jpg",coffee_name:"CAPPUCCINO",price: 400, description: "A cappuccino is an espresso-based coffee drink that is prepared with steamed milk foam.", category: "chocolate", customer_id: 2
   },
   {
       coffee_image:"https://techcrunch.com/wp-content/uploads/2022/09/Coffee-Cup-With-Ball.jpg

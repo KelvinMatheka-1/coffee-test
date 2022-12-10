@@ -1,8 +1,8 @@
-
 import image1 from "../images/image1.jpg"
 import coffee from "../images/cofee.jpeg"
 import phone from "../images/phone.png"
 import email from "../images/email.png"
+import Renderreview from "./Renderreview";
 
 function Checkout() {
     return (
@@ -15,16 +15,16 @@ function Checkout() {
                <p>Price:</p>
                <p>Category:</p>
                <div className="check-out-btn">
-                   <button className="add">AddToCart</button>
+                   {/* <button className="add">AddToCart</button> */}
                    <button className="delete">ClearCart</button>
                </div>
            </div>
        </div>
    </div>
 
-   <div className="concept">
+   <div className="box">
 
-           <div className="box">
+           <div className="projects">
                <div className="card">
                    <img className="coffee" src={coffee} alt="coffee"></img>
                    <div className="container">
@@ -40,16 +40,17 @@ function Checkout() {
                <div className="card">
                    <div className="container">
                        <h4><b>Contact-Us</b></h4>
-                       <img className="icon" src={phone} alt="phone"></img>
+                       <img classname="icon" src={phone} alt="phone"></img>
                        <p>+254 789 456</p>
-                       <img className="icon" src={email} alt="email"></img>
+                       <img classname="icon" src={email} alt="email"></img>
                        <p>cafecofee@gmail.com</p>
                        
                    </div>
                </div>
            </div>
        </div>
-
+    
+    < Renderreview />
         </>
 
     )

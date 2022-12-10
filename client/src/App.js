@@ -5,6 +5,7 @@ import Checkout from "./components/Checkout";
 import Home from "./components/Home";
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
+
 import './App.css';
 
 function App() {
@@ -19,17 +20,22 @@ function App() {
       }
     });
   }, []);
+  
 
-  if(!user) return <Login setUser={setUser} />
+  if(!user) return <SignUp setUser={setUser} /> 
+  
+
 
   return (
     <div> 
     <NavBar user={user} setUser={setUser}/>
       <Routes>
+        <Route path="/" element={<SignUp setUser={setUser} />}/>
         <Route path="/checkout" element={ <Checkout />}></Route>
         <Route path="/home" element={ <Home />}></Route>
         <Route path="/signup" element={<SignUp setUser={setUser} />}/>
         <Route path="/login" element={<Login setUser={setUser} />}/>
+        
       </Routes>
     </div>
   );
